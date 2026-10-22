@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="430" viewBox="0 0 1100 430">
+<rect width="1100" height="430" fill="#101418"/>
+<text x="550" y="32" font-family="Arial,sans-serif" font-size="23" font-weight="bold" text-anchor="middle" fill="#f4f7fb">Example Simulation: 3 × 2 = 6</text>
+<g font-family="Consolas,monospace" font-size="15" fill="#e7edf4">
+<text x="24" y="85">clk</text><text x="24" y="130">rst</text><text x="24" y="175">start</text><text x="24" y="220">multiplicand</text><text x="24" y="265">multiplier</text><text x="24" y="310">product</text><text x="24" y="355">busy</text><text x="24" y="400">done</text>
+</g>
+<g stroke="#35414d" stroke-width="1"><path d="M180 50 V410 M330 50 V410 M480 50 V410 M630 50 V410 M780 50 V410 M930 50 V410"/></g>
+<g stroke="#41d982" stroke-width="3" fill="none">
+<path d="M180 75 H210 V55 H250 V75 H290 V55 H330 V75 H370 V55 H410 V75 H450 V55 H490 V75 H530 V55 H570 V75 H610 V55 H650 V75 H690 V55 H730 V75 H770 V55 H810 V75 H850 V55 H890 V75 H930 V55 H970 V75 H1010 V55 H1050 V75 H1080"/>
+<path d="M180 120 H1080"/><path d="M180 165 H330 V145 H410 V165 H1080"/>
+<path d="M180 210 H330 V190 H1080"/><path d="M180 255 H330 V235 H1080"/>
+<path d="M180 300 H430 V280 H1080"/><path d="M180 345 H300 V325 H780 V345 H1080"/><path d="M180 390 H300 V370 H340 V390 H1080"/>
+</g>
+<g font-family="Consolas,monospace" font-size="16" fill="#f6f8fa">
+<text x="590" y="208" text-anchor="middle">03</text><text x="590" y="253" text-anchor="middle">02</text><text x="750" y="298" text-anchor="middle" font-weight="bold">0006</text>
+<text x="190" y="48" fill="#9aa7b5" font-size="12">0 ns</text><text x="330" y="48" fill="#9aa7b5" font-size="12">20 ns</text><text x="480" y="48" fill="#9aa7b5" font-size="12">40 ns</text><text x="630" y="48" fill="#9aa7b5" font-size="12">60 ns</text><text x="780" y="48" fill="#9aa7b5" font-size="12">80 ns</text><text x="930" y="48" fill="#9aa7b5" font-size="12">100 ns</text>
+<text x="550" y="424" text-anchor="middle" fill="#aeb9c6" font-size="13">Illustrative timing diagram — verify exact cycle placement against the Vivado waveform.</text>
+</g>
+</svg>
