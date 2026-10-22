@@ -1,4 +1,4 @@
-# 8-bit Signed Booth Multiplier in Verilog
+﻿# 8-bit Signed Booth Multiplier in Verilog
 
 A parameterized sequential signed Booth multiplier implemented in Verilog, with a self-checking testbench and Vivado RTL schematic.
 
@@ -46,7 +46,7 @@ The image below is the actual RTL schematic screenshot from Vivado, showing the 
 
 Example: `3 × 2 = 6`, expected product `16'h0006`.
 
-![Result](images/result.svg)
+![Result](images/results.png)
 
 *Note: this result graphic is illustrative, not a direct screenshot from Vivado Simulator.*
 
@@ -59,7 +59,7 @@ Run the self-checking testbench in Vivado Simulator (XSim). The testbench checks
 - `booth_multiplier.v` — Booth multiplier RTL
 - `booth_multiplier_tb.v` — self-checking testbench
 - `images/rtl-schematic.png` — actual Vivado RTL schematic screenshot
-- `images/result.svg` — result illustration for `3 × 2 = 6`
+- `images/results.png` — result illustration for `3 × 2 = 6`
 
 ## Run in Vivado
 
@@ -71,3 +71,4 @@ Run the self-checking testbench in Vivado Simulator (XSim). The testbench checks
 ## License
 
 No license is currently specified.
+
